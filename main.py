@@ -10,10 +10,10 @@ import pickle
 import os
 import pandas as pd
 
-# source_network_name = 'ChicagoSketch'
-source_network_name = 'SiouxFalls'
+source_network_name = 'ChicagoSketch'
+# source_network_name = 'SiouxFalls'
 
-source_folder_path = source_network_name + '/'
+source_folder_path = 'network/' + source_network_name + '/'
 source_link_file_path = source_folder_path + source_network_name + '_net.tntp'
 source_od_file_path = source_folder_path + source_network_name + '_trips.tntp'
 
